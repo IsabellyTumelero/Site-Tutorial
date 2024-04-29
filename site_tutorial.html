@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial de instalação do PHP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: #d6c0f1;">
+    <div id="menu">
+        <h2 style="font-family: Castellar; font-size: 20px;">Como configurar um Ambiente PHP Local para programar em PHP</h2>
+        <button><a href="#oque">O que é?</a></button>
+        <button><a href="#tutorial">Tutorial 1</a></button>
+        <button><a href="#tutorial2">Tutorial 2</a></button>
+    </div><br>
+
+
+    <div id="div2">
+        <img src="img\O-que-e-PHP-guia-basico.webp" alt="Ilustração php"  id="img1">
+    </div><br><br><br>
+
+    <div >
+        <section>
+            <h3 id="oque">O que é PHP?</h3>
+            <p>O PHP é uma linguagem de programação  open source, ou seja, de código aberto, utilizada por programadores e desenvolvedores para construir sites dinâmicos, extensões de integração de aplicações e agilizar no desenvolvimento de um sistema, além de também ter outras funcionalidades como a criação de scripts para linha de comando. <br>Em resumo, o PHP desempenha um papel fundamental na criação de aplicações web dinâmicas e é uma ferramenta valiosa para desenvolvedores que desejam construir sites interativos e funcionais, com a disponibilidade de codigo aberto e maior compatibilidade com bancos de dados.
+            </p>
+        </section><br><br><br>
+
+        <div>
+            <h3 id="tutorial">Como programar em php utilizando os arquivos do PHP diretamente do site oficial:</h3>
+            <ol type="1">
+                <li>Primeiramente, é necessário acessar o site oficial do PHP (<a href="https://www.php.net/downloads.php">https://www.php.net/downloads.php</a>). Ao entrar no site, em "Windows downloads", clique no link de download "Zip":</li>
+                    <img src="img\windowsdownload.png" alt="Windows downloads">
+                    <img src="img\zip.png" alt="zip"><br><br><br>
+                <li>Após o download da pasta zip, é necessário extraí-lo para o "Disco C:".</li>
+                    <img src="img\downloads site.png" alt="Download site">
+                    <img src="img\extraido.png" alt="extraido"><br><br><br>
+                <li>Depois desse processo, deve-se criar um documento de texto dentro da pasta extraída, para realização de um arquivo executável.<br><strong>OBS:</strong> o arquivo executável deve ser salvo com extenção ".php":</li>
+                    <div id="div3">
+                        <img src="img\criar_executavel.png" alt="criar executavel">
+                        <img src="img\executavel.png" alt="executavel php"><br><br><br>
+
+                    </div>
+                <li>Agora, para realizar a efetuação do executável, é necessário a utilização do "Prompt de Comando" (entarando no "C:" e logo depois na pasta extraída do php e,  iniciar um servidor web na máquina local, na porta 80) acompanhando os seguintes comandos: </li>
+                    <img src="img\cmd_comandos.png" alt="comandos"><br><br><br>
+                <li>Para finalizar todo o processo, copie a URL provido dos comandos (http://localhost:80) e cole no navegador de sua preferencia junto do nome do arquivo executável:</li>
+                    <img src="img\navegador.png" alt="navegador">
+            </ol><br><br><br>
+        </div>
+
+        <div>
+            <h3 id="tutorial2">Como usar o XAMPP para executar o PHP:</h3>
+            <ol>
+                <li>Inicialmente, entre no site oficial do XAMPP <a href="https://www.apachefriends.org/index.html">(https://www.apachefriends.org/index.html)</a> e faça o download arquivo de instalação.</li>
+                    <div id="div4">
+                        <img src="img\site xampp.png" alt="Site do XAMPP"><br><br><br>
+                    </div>
+                <li>No momento da instalação do arquivo, aparecerá uma mensagem de afirmação para realizar alteração no dispositivo (clique em "Aceito"). Após essa etapa, será iniciado o instalador do programa, nesse instante, todas as abas que aparecerem clique em "Next".</li>
+                    <div id="div5">
+                        <img src="img\alteracoes.png" alt="Alterações">
+                    <img src="img\next1.png" alt="Next1">
+                    <img src="img\next2.png" alt="Next2">
+                    <img src="img\next3.png" alt="Next3">
+                    <img src="img\next4.png" alt="Next4">
+                    <img src="img\next5.png" alt="Next5">
+                    <img src="img\next6.png" alt="Next6">
+                    </div>
+                    
+                    <br><br><br>
+                <li>Finalizando todo esse procedimento, aparecerá\ uma janela para executar o XAMPP (aceite).</li>
+                    <img src="img\finish.png" alt="Finish">
+                    <br><br><br>
+                <li>Ao abrir o software, deve-se estartar o "Apache"</li>
+                    <img src="img\painel_xampp.png" alt="Painel de controle do XAMPP">
+                    <br><br>
+                <li>Agora, no local em que foi instalado o aplicativo, entre na pasta "XAMPP" e logo depois na "htdocs" (que é onde localiza-se o servidor local), nela exclua tudo o que está lá dentro e crie um pasta para ser aberta no VSC</li>
+                    <img src="img\htdocs.png" alt="htdocs">
+                    <img src="img\pasta_teste.png" alt="Pasta teste">
+                    <br><br><br>
+                <li>Abra essa pasta criada no Viual Studio Code e, crie um novo arquivo com a extenção ".php"</li>                    
+                    <img src="img\testephp.png" alt="Executável do php">
+                    <br><br><br>
+                <li>No navegador, digite "localhost" no campo de pesquisa em conjunto da pasta e do arquivo PHP</li>
+                    <img src="img\navegador2.png" alt="Navegador2">
+            </ol>
+        </div>
+
+
+
+        <footer>
+            <br>
+            <p>By: Isabelly Tumelero</p>
+        </footer>
+    </div>
+</body>
+</html>
